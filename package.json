@@ -1,0 +1,29 @@
+{
+  "name": "react-sortable-tree-issue-459",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dnd": "^7.0.0",
+    "react-dnd-html5-backend": "^7.0.0",
+    "react-dom": "^16.4.0",
+    "react-sortable-tree": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode=development --content-base=dist"
+  }
+}
